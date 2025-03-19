@@ -46,6 +46,13 @@ python CNN_histo_train.py
 The script will train the model for a specified number of epochs (5 in this case) and print the training and validation loss for each epoch.
 The model will then be save as cnn_model_histo.pth in the directory in which the script is run
 
+## Training
+
+To predict with the model, use the script provided:
+
+```sh
+python CNN_histo_predict.py
+
 ## Author
 
 Andres Gonzalez
